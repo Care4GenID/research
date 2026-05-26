@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact — Care4GenID</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- NAVIGATION -->
+  <nav class="navbar">
+    <div class="nav-container">
+      <a href="index.html" class="nav-logo">Care4<span>GenID</span></a>
+      <ul class="nav-links">
+        <li><a href="index.html"><span class="lang-en">Home</span><span class="lang-nl">Home</span></a></li>
+        <li><a href="team.html">Team</a></li>
+        <li><a href="research.html"><span class="lang-en">Research</span><span class="lang-nl">Onderzoek</span></a></li>
+        <li><a href="contact.html" class="active">Contact</a></li>
+        <li>
+          <div class="lang-switch">
+            <button data-lang="en" class="active">EN</button>
+            <button data-lang="nl">NL</button>
+          </div>
+        </li>
+      </ul>
+      <button class="nav-toggle" aria-label="Toggle menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <main>
+    <!-- HERO -->
+    <section class="hero" style="padding: 4rem 2rem 3rem;">
+      <div class="hero-content">
+        <h1>Contact</h1>
+        <p class="lang-en">Interested in collaborating, joining our team, or learning more about our research? Get in touch.</p>
+        <p class="lang-nl">Geïnteresseerd in samenwerking, wilt u zich bij ons team aansluiten, of wilt u meer weten over ons onderzoek? Neem contact met ons op.</p>
+      </div>
+    </section>
+
+    <!-- CONTACT CONTENT -->
+    <section class="section">
+      <div class="container">
+        <div class="contact-grid">
+
+          <!-- Contact details -->
+          <div>
+            <h2 class="section-title fade-in">
+              <span class="lang-en">Get in Touch</span>
+              <span class="lang-nl">Neem Contact Op</span>
+            </h2>
+
+            <div class="contact-info-block fade-in">
+              <h3>Email</h3>
+              <p><a href="mailto:info@care4genid.org">info@care4genid.org</a></p>
+            </div>
+
+            <div class="contact-info-block fade-in">
+              <h3>
+                <span class="lang-en">Address</span>
+                <span class="lang-nl">Adres</span>
+              </h3>
+              <p>
+                [Department name]<br>
+                [Institution name]<br>
+                [Street address]<br>
+                [City, Postal code]<br>
+                <span class="lang-en">The Netherlands</span>
+                <span class="lang-nl">Nederland</span>
+              </p>
+            </div>
+
+            <div class="contact-info-block fade-in">
+              <h3>
+                <span class="lang-en">Collaboration</span>
+                <span class="lang-nl">Samenwerking</span>
+              </h3>
+              <p>
+                <span class="lang-en">We welcome collaboration with researchers, clinicians, and patient organizations. Please reach out via email to discuss opportunities.</span>
+                <span class="lang-nl">Wij verwelkomen samenwerking met onderzoekers, clinici en patiëntenorganisaties. Neem contact op via e-mail om mogelijkheden te bespreken.</span>
+              </p>
+            </div>
+
+            <div class="contact-info-block fade-in">
+              <h3>
+                <span class="lang-en">Student Opportunities</span>
+                <span class="lang-nl">Stageplekken</span>
+              </h3>
+              <p>
+                <span class="lang-en">Interested in a research internship or thesis project? We regularly host master's students. Contact us with your CV and a brief description of your interests.</span>
+                <span class="lang-nl">Geïnteresseerd in een onderzoeksstage of afstudeerproject? Wij begeleiden regelmatig masterstudenten. Neem contact met ons op met uw CV en een korte beschrijving van uw interesses.</span>
+              </p>
+            </div>
+          </div>
+
+          <!-- Contact form -->
+          <div class="fade-in">
+            <h2 class="section-title" style="margin-bottom: 1.5rem;">
+              <span class="lang-en">Send a Message</span>
+              <span class="lang-nl">Stuur een Bericht</span>
+            </h2>
+            <div class="contact-form">
+              <div>
+                <label for="name">
+                  <span class="lang-en">Name</span>
+                  <span class="lang-nl">Naam</span>
+                </label>
+                <input type="text" id="name" placeholder="">
+              </div>
+              <div>
+                <label for="email">Email</label>
+                <input type="email" id="email" placeholder="">
+              </div>
+              <div>
+                <label for="subject">
+                  <span class="lang-en">Subject</span>
+                  <span class="lang-nl">Onderwerp</span>
+                </label>
+                <input type="text" id="subject" placeholder="">
+              </div>
+              <div>
+                <label for="message">
+                  <span class="lang-en">Message</span>
+                  <span class="lang-nl">Bericht</span>
+                </label>
+                <textarea id="message" rows="6"></textarea>
+              </div>
+              <div>
+                <button class="btn" onclick="alert('To make this form work, connect it to a service like Formspree (formspree.io) — it\'s free! Replace this button\'s onclick with a proper form action.')">
+                  <span class="lang-en">Send Message</span>
+                  <span class="lang-nl">Verstuur Bericht</span>
+                </button>
+                <p style="margin-top: 0.75rem; font-size: 0.85rem; color: var(--color-text-light);">
+                  <span class="lang-en">💡 Note: To activate this form, you'll need to connect it to a free service like <a href="https://formspree.io" target="_blank" style="color: var(--color-accent);">Formspree</a>.</span>
+                  <span class="lang-nl">💡 Let op: Om dit formulier te activeren, dient u het te koppelen aan een gratis dienst zoals <a href="https://formspree.io" target="_blank" style="color: var(--color-accent);">Formspree</a>.</span>
+                </p>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="footer-content">
+      <div>
+        <div class="footer-logo">Care4<span>GenID</span></div>
+        <p>
+          <span class="lang-en">Research for individuals with genetic neurodevelopmental disorders and intellectual disabilities.</span>
+          <span class="lang-nl">Onderzoek voor mensen met genetische neurobiologische ontwikkelingsstoornissen en verstandelijke beperkingen.</span>
+        </p>
+      </div>
+      <ul class="footer-links">
+        <li><a href="index.html"><span class="lang-en">Home</span><span class="lang-nl">Home</span></a></li>
+        <li><a href="team.html">Team</a></li>
+        <li><a href="research.html"><span class="lang-en">Research</span><span class="lang-nl">Onderzoek</span></a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </div>
+    <div class="footer-bottom">
+      <p>&copy; 2026 Care4GenID. <span class="lang-en">All rights reserved.</span><span class="lang-nl">Alle rechten voorbehouden.</span></p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
